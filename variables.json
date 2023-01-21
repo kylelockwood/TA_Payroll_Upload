@@ -1,0 +1,45 @@
+{
+    "roth_file":{
+        "read_file" : true,
+        "path" : "Downloads",
+        "namekeyword" : "CultivateInitiatives_DeductionsAndContributionsReport_Roth_401(k)_Contribution",
+        "type" : ".xls",
+        "sheet" : 0,
+        "data_cols" : [1, 2],
+        "target_cols" : [6, 7]
+    },
+    "401k_file":{
+        "read_file" : true,
+        "path" : "Downloads",
+        "namekeyword" : "CultivateInitiatives_DeductionsAndContributionsReport_401(k)_Contribution",
+        "type" : ".xls",
+        "sheet" : 0,
+        "data_cols": [1, 2],
+        "target_cols" : [5, 7]
+    },
+    "payroll_summary":{
+        "read_file" : true,
+        "path" : "Downloads",
+        "namekeyword" : "CultivateInitiatives_PayrollSummaryByEmployee",
+        "type" : ".xls",
+        "sheet" : 1,
+        "data_cols" : [1, 8],
+        "target_cols" : [12, 11]
+    },
+    "payroll_file":{
+        "read_file" : false,
+        "path" : "Downloads",
+        "namekeyword" : "Payroll file",
+        "type" : ".xlsx",
+        "sheet" : 0,
+        "data_cols" : [],
+        "target_cols" : []
+    },
+    "debug" : {
+        "active" : false,
+        "locals" : false,
+        "scope" : false,
+        "globals" : false,
+        "kwargs" : {"self.vars" : "self.vars"}
+    }
+}
